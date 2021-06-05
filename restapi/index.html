@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de legumes</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+            color:#184d47;
+            background-color:#96bb7c;
+            background-image: url(https://64.media.tumblr.com/c118b98dffe573e66d03923506c43bfa/tumblr_inline_mp2cnibpHq1qz4rgp.gif);
+            background-repeat: repeat-x;
+            background-position-y:top;
+            cursor: url(https://64.media.tumblr.com/tumblr_lu9wu04mwF1qfoi4t.png), auto;
+
+        }
+        .main{
+            padding: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 200px;
+            text-align: center;
+            margin-top: 15vh;
+            align-content: center;
+        }
+        #botao{
+            border: none;
+            background-color:#184d47;
+            color: #eebb4d;
+            padding: 10px;
+            width: 140px;
+            text-align: center;
+            align-content: center;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://64.media.tumblr.com/c91a0b1ef763084a7a3e134cbbdf3bec/tumblr_inline_mkj1y0QbbZ1qz4rgp.gif">
+        <form method="POST">
+            <label for="nome">nome do legume:</label><br>
+            <input type="text" id="nome" name="nome" value="ex: abóbora"><br>
+            <label for="nomesci">nome cientifico:</label><br>
+            <input type="text" id="nomecientifico" name="nomecientifico" value="ex: Cucurbita maxima"><br>
+            <label for="nota">nota:</label><br>
+            <input type="number" id="nota" name="nota"><br><br>
+            <input type="submit" id="botao" value="enviar">
+        </form>
+    </div>
+</body>
+</html>
